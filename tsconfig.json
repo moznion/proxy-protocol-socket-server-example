@@ -1,0 +1,43 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["dom", "es2018"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+
+    "rootDir": "src",
+    "outDir": "built",
+
+    "strict": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noFallthroughCasesInSwitch": true,
+    "preserveConstEnums": true,
+    "declaration": true,
+    "sourceMap": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "*",
+        "node_modules/*",
+        "test/*"
+      ]
+    },
+
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
